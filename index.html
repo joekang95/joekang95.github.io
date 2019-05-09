@@ -47,11 +47,9 @@
         </nav>
 
         <section class="container-fluid bgimg d-flex align-items-center justify-content-center" id="home">
-            <div class="jumbotron bg-0 text-white" id="about">
-                <div class="container">
-                    <h1 class="display-4">Joe Chang</h1>
-                    <p class="lead">A Computer Science Major</p>
-                </div>
+            <div class="container">
+                <h1 class="display-4">Joe Chang</h1>
+                <p class="lead">A Computer Science Major</p>
             </div>
         </section>
 
@@ -63,7 +61,9 @@
                     To know more about me, click on the following button.
                 </p>
                 <hr class="my-4">
-                <a href="Joe Yu-Ho Chang-Resume.pdf"><i class="material-icons align-middle text-dark" style="font-size: 36px">description</i></a>
+                <a href="Joe Yu-Ho Chang-Resume.pdf" target="_blank">
+                    <i class="material-icons align-middle text-dark" style="font-size: 36px">description</i>
+                </a>
             </div>
         </section>
 
@@ -108,27 +108,83 @@
         </section><br>
 
         <section class="bg-1" id="skills">
-            <div class="container-fluid text-center">    
+            <div class="container text-center">    
                 <h1 class="pt-4 font-weight-bold">Skills</h1><br>
-            </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 mb-4 mb-md-0">
+                        <h4 class="font-weight-bold">C++</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="font-weight-bold">Java</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 mb-4 mb-md-0">
+                        <h4 class="font-weight-bold">C</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="font-weight-bold">MATLAB</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 mb-4 mb-md-0">
+                        <h4 class="font-weight-bold">HTML/CSS</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="font-weight-bold">JavaScript</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 mb-4 mb-md-0">
+                        <h4 class="font-weight-bold">PHP</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h4 class="font-weight-bold">Python</h4>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                        </div>
+                    </div>
+                </div><br>
+            </div><br>
         </section><br>
 
         <section class="bg-1" id="projects">
             <div class="container-fluid text-center">    
                 <h1 class="pt-4 font-weight-bold">Projects</h1><br>
                 <div class="row justify-content-center">
-                    <div class="col-sm-3">
-                        <div class="card bg-trans border border-secondary border-thick">
-                            <img src="images/preview/Raytracing.png" class="img-responsive mt-3" style="width:100%" alt="Image">
+                    <div class="col-sm-4 mb-4 mb-md-0">
+                        <div class="card bg-trans border-secondary border-thick">
+                            <img src="images/preview/Raytracing.png" class="card-img-top mt-3" style="width:100%" alt="Image">
                             <div class="card-body font-weight-bold ">
                                 <h3 class="card-title font-weight-bold pb-2">Raytracing</h3>
                                 <p class="card-text">Built a ray tracer that could handle opaque, mirror surfaces with lighting and shadows. Included features such as antialiasing, soft shadows, and motion blur</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3"> 
-                        <div class="card bg-trans border border-secondary border-thick">
-                            <img src="images/preview/Rollercoaster.jpg" class="img-responsive mt-3" style="width:100%" alt="Image">
+                    <div class="col-sm-4"> 
+                        <div class="card bg-trans border-secondary border-thick">
+                            <img src="images/preview/Rollercoaster.jpg" class="mt-3" style="width:100%" alt="Image">
                             <div class="card-body font-weight-bold ">
                                 <h3 class="card-title font-weight-bold pb-2">Rollercoaster Simiulation</h3>
                                 <p class="card-text">Used Catmull-Rom splines to create the rails, texture mapping to render the cross sections, and Phong shading to render the rails. Can move in a reasonable speed physically realistic</p>
@@ -137,19 +193,19 @@
                     </div>
                 </div><br>
                 <div class="row justify-content-center">
-                    <div class="col-sm-3">                         
-                        <div class="card bg-trans border border-secondary border-thick">
-                            <img src="images/preview/HeightField.jpg" class="img-responsive mt-3" style="width:100%" alt="Image">
+                    <div class="col-sm-4 mb-4 mb-md-0">                         
+                        <div class="card bg-trans border-secondary border-thick">
+                            <img src="images/preview/HeightField.jpg" class="mt-3" style="width:100%" alt="Image">
                             <div class="card-body font-weight-bold ">
                                 <h3 class="card-title font-weight-bold pb-2">Height Field</h3>
                                 <p class="card-text">Created a height field based on the data from an image and allowed the user to manipulate the height field in three dimensions by rotating, translating, or scaling it</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-4">
                         <a href="https://github.com/joekang95/Hypermedia" target="_blank">
-                            <div class="card bg-trans border border-secondary border-thick">
-                                <img src="images/preview/Hypermedia.png" class="img-responsive mt-3" style="width:100%" alt="Image">
+                            <div class="card bg-trans border-secondary border-thick">
+                                <img src="images/preview/Hypermedia.png" class="mt-3" style="width:100%" alt="Image">
                                 <div class="card-body font-weight-bold ">
                                     <h3 class="card-title font-weight-bold pb-2">Hypervideo</h3>
                                     <p class="card-text">Developed an Interactive Multimedia Content that combines video with a non-linear information structure, allowing a user to make choices based on the content of the video</p>
@@ -223,22 +279,22 @@
                 <div class="row text-left justify-content-center">
                     <div class="col-sm-6">
                         <a href="mailto:joekang95@gmail.com">
-                            <i class="far fa-envelope align-middle mr-3"  style="font-size: 36px"></i>
-                            <label class="mb-3 font-weight-bold">joekang95@gmail.com</label>
+                            <i class="far fa-envelope align-middle mr-3" style="font-size: 36px"></i>
+                            <label class="mb-3 font-weight-bold" style="font-size: 20px">joekang95@gmail.com</label>
                         </a><br>
                         <a href="https://www.facebook.com/chang.joe.95" target="_blank">
                             <i class="fab fa-facebook-square align-middle mr-3" style="font-size: 36px"></i>
-                            <label class="mb-3 font-weight-bold">Facebook</label>
+                            <label class="mb-3 font-weight-bold" style="font-size: 20px">Facebook</label>
                         </a><br>    
 
                         <a href="https://github.com/joekang95" target="_blank">
                             <i class="fab fa-github-square align-middle mr-3" style="font-size: 36px"></i>
-                            <label class="mb-3 font-weight-bold">GitHub</label>
+                            <label class="mb-3 font-weight-bold" style="font-size: 20px">GitHub</label>
                         </a><br>       
 
                         <a href="https://www.instagram.com/joeyhchang/" target="_blank">
                             <i class="fab fa-instagram align-middle mr-3" style="font-size: 36px"></i>
-                            <label class="mb-3 font-weight-bold">Instagram</label>
+                            <label class="mb-3 font-weight-bold" style="font-size: 20px">Instagram</label>
                         </a><br>    
                     </div>
                 </div>
