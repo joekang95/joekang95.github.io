@@ -2,6 +2,12 @@
 html, body {
     height: 100%;
     font-family: 'Montserrat';
+    margin: 0;
+    background-image: url("images/home/40007831-geometric-wallpapers.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
@@ -36,4 +42,13 @@ label {
 }
 .navbar-top {
     background: transparent !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.navbar:not(.navbar-top) {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-1 {
+    background-color: rgba(200, 200, 200, 0.8);
 }
