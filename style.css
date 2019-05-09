@@ -52,3 +52,8 @@ label {
 .bg-1 {
     background-color: rgba(200, 200, 200, 0.7);
 }
+
+.bg-0 {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 50%
+}
