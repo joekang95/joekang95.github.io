@@ -18,7 +18,13 @@ footer {
 label {
     cursor: pointer;
 }
-#contact a {
+
+section {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8) !important;
+}
+
+#contact a, #projects a {
     text-decoration: none;
     color: inherit;
 }
@@ -56,4 +62,12 @@ label {
 .bg-0 {
     background-color: rgba(0, 0, 0, 0.3);
     width: 50%
+}
+
+.bg-trans {
+    background: transparent !important
+}
+
+.border-thick {
+    border-width: 3px !important;
 }
