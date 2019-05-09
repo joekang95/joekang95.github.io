@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+html, body {
+    height: 100%;
+    font-family: 'Montserrat';
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+label {
+    cursor: pointer;
+}
+#contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bgimg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: relative;
+    background-image: url("images/home/40007831-geometric-wallpapers.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 740px) {
+    html, body {
+        height: 100vh;
+    }
+}
+.navbar-top {
+    background: transparent !important;
+}
