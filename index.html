@@ -66,7 +66,7 @@
                 </ul>
             </div>
         </nav>
-        
+
         <button id="topButton"><i class="material-icons align-middle">arrow_upward</i></button>
 
         <section class="container-fluid fullscreen d-flex align-items-center justify-content-center" id="home">
@@ -197,52 +197,70 @@
         <section class="bg-1" id="projects">
             <div class="container">    
                 <h1 class="pt-4 font-weight-bold">Projects</h1><br>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 mb-4 mb-md-0">
-                        <a href="https://github.com/joekang95/RayTracing" target="_blank"> 
-                            <div class="card bg-trans border-secondary border-thick">
-                                <img src="images/preview/Raytracing.png" class="mt-3" style="width:100%" alt="Image">
-                                <div class="card-body font-weight-bold ">
-                                    <h3 class="card-title font-weight-bold pb-2">Raytracing</h3>
-                                    <p class="card-text">Built a ray tracer that could handle opaque, mirror surfaces with lighting and shadows. Included features such as antialiasing, soft shadows, and motion blur</p>
-                                </div>
-                            </div>
-                        </a>
+
+                <nav>
+                    <div class="nav nav-tabs tab-color" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-cg-tab" data-toggle="tab" href="#nav-cg" role="tab" aria-controls="nav-cg" aria-selected="true">Computer Graphics</a>
+                        <a class="nav-item nav-link tab-color" id="nav-web-tab" data-toggle="tab" href="#nav-web" role="tab" aria-controls="nav-web" aria-selected="false">Web Technologies</a>
+                        <a class="nav-item nav-link tab-color" id="nav-media-tab" data-toggle="tab" href="#nav-media" role="tab" aria-controls="nav-media" aria-selected="false">Mutimedia</a>
                     </div>
-                    <div class="col-sm-6"> 
-                        <a href="https://github.com/joekang95/RollerCoaster" target="_blank"> 
-                            <div class="card bg-trans border-secondary border-thick">
-                                <img src="images/preview/Rollercoaster.jpg" class="mt-3" style="width:100%" alt="Image">
-                                <div class="card-body font-weight-bold ">
-                                    <h3 class="card-title font-weight-bold pb-2">Rollercoaster Simiulation</h3>
-                                    <p class="card-text">Used Catmull-Rom splines to create the rails, texture mapping to render the cross sections, and Phong shading to render the rails. Can move in a reasonable speed physically realistic</p>
-                                </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-cg" role="tabpanel" aria-labelledby="nav-cg-tab">
+                        <div class="row mt-4 justify-content-center">
+                            <div class="col-sm-6  mb-4 mb-md-0">
+                                <a href="https://github.com/joekang95/RayTracing" target="_blank"> 
+                                    <div class="card bg-trans border-secondary border-thick">
+                                        <img src="images/preview/Raytracing.png" class="mt-3" style="width:100%" alt="Image">
+                                        <div class="card-body font-weight-bold ">
+                                            <h3 class="card-title font-weight-bold pb-2">Raytracing</h3>
+                                            <p class="card-text">Built a ray tracer that could handle opaque, mirror surfaces with lighting and shadows. Included features such as antialiasing, soft shadows, and motion blur</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                            <div class="col-sm-6"> 
+                                <a href="https://github.com/joekang95/RollerCoaster" target="_blank"> 
+                                    <div class="card bg-trans border-secondary border-thick">
+                                        <img src="images/preview/Rollercoaster.jpg" class="mt-3" style="width:100%" alt="Image">
+                                        <div class="card-body font-weight-bold ">
+                                            <h3 class="card-title font-weight-bold pb-2">Rollercoaster Simiulation</h3>
+                                            <p class="card-text">Used Catmull-Rom splines to create the rails, texture mapping to render the cross sections, and Phong shading to render the rails. Can move in a reasonable speed physically realistic</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div><br>
+                        <div class="row justify-content-left">
+                            <div class="col-sm-6 mb-4 mb-md-0">     
+                                <a href="https://github.com/joekang95/HeightField" target="_blank">                    
+                                    <div class="card bg-trans border-secondary border-thick">
+                                        <img src="images/preview/HeightField.jpg" class="mt-3" style="width:100%" alt="Image">
+                                        <div class="card-body font-weight-bold ">
+                                            <h3 class="card-title font-weight-bold pb-2">Height Field</h3>
+                                            <p class="card-text">Created a height field based on the data from an image and allowed the user to manipulate the height field in three dimensions by rotating, translating, or scaling it</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div><br>
-                <div class="row justify-content-center">
-                    <div class="col-sm-6 mb-4 mb-md-0">     
-                        <a href="https://github.com/joekang95/HeightField" target="_blank">                    
-                            <div class="card bg-trans border-secondary border-thick">
-                                <img src="images/preview/HeightField.jpg" class="mt-3" style="width:100%" alt="Image">
-                                <div class="card-body font-weight-bold ">
-                                    <h3 class="card-title font-weight-bold pb-2">Height Field</h3>
-                                    <p class="card-text">Created a height field based on the data from an image and allowed the user to manipulate the height field in three dimensions by rotating, translating, or scaling it</p>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="tab-pane fade" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab">
                     </div>
-                    <div class="col-sm-6">
-                        <a href="https://github.com/joekang95/Hypermedia" target="_blank">
-                            <div class="card bg-trans border-secondary border-thick">
-                                <img src="images/preview/Hypermedia.png" class="mt-3" style="width:100%" alt="Image">
-                                <div class="card-body font-weight-bold ">
-                                    <h3 class="card-title font-weight-bold pb-2">Hypervideo</h3>
-                                    <p class="card-text">Developed an Interactive Multimedia Content that combines video with a non-linear information structure, allowing a user to make choices based on the content of the video</p>
-                                </div>
+                    <div class="tab-pane fade" id="nav-media" role="tabpanel" aria-labelledby="nav-media-tab">
+                        <div class="row mt-4 justify-content-left">
+                            <div class="col-sm-6  mb-4 mb-md-0">
+                                <a href="https://github.com/joekang95/Hypermedia" target="_blank">
+                                    <div class="card bg-trans border-secondary border-thick">
+                                        <img src="images/preview/Hypermedia.png" class="mt-3" style="width:100%" alt="Image">
+                                        <div class="card-body font-weight-bold ">
+                                            <h3 class="card-title font-weight-bold pb-2">Hypervideo</h3>
+                                            <p class="card-text">Developed an Interactive Multimedia Content that combines video with a non-linear information structure, allowing a user to make choices based on the content of the video</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div><br>

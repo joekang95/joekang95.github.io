@@ -95,3 +95,18 @@ section:not(#home) {
 #topButton:hover {
   background-color: rgba(80, 80, 80, 0.8) !important;
 }
+
+.nav-tabs {
+  border-bottom: 1px solid #343a40 !important;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+  border-color: #343a40 #343a40 #343a40 !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: white !important;
+  background-color: #343a40 !important;
+  border-color: #343a40 #343a40 #343a40 !important;
+}
