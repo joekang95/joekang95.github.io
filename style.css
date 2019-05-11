@@ -38,16 +38,8 @@ section:not(#home) {
     color: inherit;
 }
 
-.bgimg {
-    width: 100%;
+.fullscreen {
     height: 100%;
-    opacity: 0.9;
-    position: relative;
-    background-image: url("images/home/40007831-geometric-wallpapers.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .navbar-top {
