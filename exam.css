@@ -119,3 +119,8 @@ footer {
     color: #E3D4A9;
     background-color: #655623; 
 }
+
+video {
+  width: 100%;
+  max-height: 100%;
+}
